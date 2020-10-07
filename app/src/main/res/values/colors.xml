@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F4F6F9</color>
+    <color name="colorPrimaryDark">#F4F6F9</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="customBlue">#30318D</color>
+    <color name="customBlue1">#7E7EB8</color>
+    <color name="customBlueLight">#858EF0</color>
+    <color name="bg_dashboard">#F4F6F9</color>
+    <color name="txt_label_color">#515C6F</color>
+    <color name="customBlack">#000000</color>
+    <color name="customWhite">#FFFFFF</color>
+    <color name="colorWhite100">#F5F6FC</color>
+    <color name="colorRed500">#FF6565</color>
+    <color name="colorWhiteMain">#CBCBCB</color>
+    <color name="merahlogi">#E6212A</color>
+    <color name="birulogi">#30318D</color>
+</resources>

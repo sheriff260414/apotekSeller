@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="google_maps_key">AIzaSyAOrXr6TWfF5hx25uOBTgkOsIFSTiqHLZ8</string>
+    <string name="app_name">Apotek Seller</string>
+    <string name="err_mes_nothing">Tidak boleh kosong</string>
+    <string name="err_mes_no_connection">Tidak Dapat Terhubung. Periksa Koneksi Internet Anda</string>
+    <string name="err_mes_timeout_connection">Koneksi Internet Terlalu Lambat. Periksa Internet Anda dan Coba Lagi.</string>
+    <string name="err_mes_unknown">Kesalahan Tidak Diketahui %1$s. [%2$d]</string>
+    <string name="err_mes">Error %1$s</string>
+
+    <string name="err_mes_login">Login Pengguna Gagal : %1$s</string>
+    <string name="err_mes_register">Register Pengguna Gagal : %1$s</string>
+    <string name="ans_mes_ok">Oke</string>
+
+    <string name="message_logout">Apa anda ingin keluar ?</string>
+    <string name="message_keluar_app">Apa anda ingin keluar dari aplikasi ?</string>
+    <string name="ans_mes_logout">Ya</string>
+    <string name="ans_mes_no_logout">Tidak</string>
+
+    <string name="default_font" translatable="false">sans-serif-light</string>
+    <string name="fill_data">Please fill</string>
+    <string name="dialog_title_pick_picture">Choose Picture</string>
+    <string-array name="jenis">
+        <item>Free</item>
+        <item>Premium</item>
+    </string-array>
+    <array name="tipe_obat">
+        <item>Pilih Tipe</item>
+        <item>Konsinyasi</item>
+        <item>BPJS</item>
+        <item>Apotek</item>
+    </array>
+    <array name="kategori">
+        <item>Pilih Kategori</item>
+        <item>Bebas</item>
+        <item>Resep Dokter</item>
+    </array>
+
+    <array name="status_pesanan">
+        <item>Menunggu Konfirmasi</item>
+        <item>Proses</item>
+        <item>Selesai</item>
+    </array>
+
+    <array name="provinsi">
+        <item>Pilih Provinsi</item>
+    </array>
+    <array name="kabupaten">
+        <item>Pilih Kabupaten</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

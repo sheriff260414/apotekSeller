@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/icn_tool"
+        layout="@layout/action_bar" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_below="@id/icn_tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Nomor Pesanan"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=":"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_nomorpesanan_detailpesananobat"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="012345678"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Tanggal"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=":"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_tglpesanan_detailpesananobat"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="2020-04-02 08:00"
+                android:textStyle="bold"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Alamat Pengantaran"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=":"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_alamatpesanan_detailpesananobat"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="JL Sengkan Gg Sadewa nomor 20 G RT 4 RW 38 Sinduharjo Ngaglik Sleman"
+                android:textStyle="bold"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Catatn"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=":"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_catatanpesanan_detailpesananobat"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Test catatan pemesanan"
+                android:textStyle="bold"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Tambahan Biaya / Pengiriman"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=":"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_tambahanbiayapesanan_detailpesananobat"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="100.000"
+                android:textStyle="bold"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Voucher"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=":"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:id="@+id/tv_voucherpesanan_detailpesananobat"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="MyApotek"
+                android:textStyle="bold"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Diskon Voucher"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=":"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:id="@+id/tv_diskonvoucherpesanan_detailpesananobat"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="10.000"
+                android:textStyle="bold"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Total"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=":"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_totalpesanan_detailpesananobat"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="100.000"
+                android:textStyle="bold"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Status"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=":"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_statuspesanan_detailpesananobat"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Selesai"
+                android:textStyle="bold"
+                android:textColor="@color/customBlack"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

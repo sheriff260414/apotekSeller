@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_sp_drop_item"
+    android:textSize="16sp"
+    android:singleLine="true"
+    android:textColor="@color/customBlack"
+    android:fontFamily="sans-serif-light"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:ellipsize="marquee">
+
+</TextView>
